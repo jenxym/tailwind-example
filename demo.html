@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="css.84fca628.css"><title>Página de documentación y configuración</title></head><body> <div class="w-screen p-3 h-40 bg-gray-600 flex flex-col justify-between items-center"> <p class="text-2xl font-bold text-gray-100">Ejemplo de página con Tailwind CSS</p> <a class="bg-orange-400 p-4 my-3 rounded-sm hover:bg-orange-300 font-bold text-gray-900" href="index.html">Volver a index</a> </div> <div class="container mx-auto"> <h1 class="mt-4">Para instalar los archivos necesarios (en Dev)</h1> <ol class="list-decimal list-inside p-8"> <li>npm init</li> <li>git init</li> <li>npm install -D parcel-bundler</li> <li>npm install -D postcss-cli postcss-clean (Postcss y minificador de css)</li> <li>npm install -D autoprefixer (añadir prefijos para navegadores antiguos)</li> <li>npm install -D tailwindcss</li> <li>Crear archivo de postcss: <em>code .postcssrc</em></li> <li>npx tailwindcss init (crea archivo de configuración)</li> <li>tailwindcss intellisense plugin vscode para ver tags</li> </ol> <p>Archivo .postcssrc</p> <pre class="bg-gray-300 rounded-md p-2 m-4">
+            {
+                "plugins": {
+                    "autoprefixer": true,
+                    "postcss-clean": true,
+                    "tailwindcss": true
+                }
+            }</pre> <p>En el arvhico index.css poner</p> <pre class="bg-gray-300 rounded-md p-2 m-4">
+            @tailwind base;
+
+            @tailwind components;
+
+            @tailwind utilities;        </pre> <div> <h1 class="mt-4 mb-4">Paleta de colores</h1> <img class="mx-auto" src="paleta-colores.5efa3cca.png" alt=""> </div> </div> </body></html>
