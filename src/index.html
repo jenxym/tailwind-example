@@ -4,40 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <title>Document</title>
+    <title>Página principal</title>
 </head>
 <body>
-    <div class="lg:container p-3 bg-gray-600">
-        <p class="text-sm text-gray-100">Ejemplo de página con Tailwind CSS</p></div>
-    <h1>Para instalar los archivos necesarios (en Dev)</h1>
-    <ol class="list-decimal list-inside p-8">
-        <li>npm init, git init</li>
-        <li>npm install -D parcel-bundler</li>
-        <li>npm install -D postcss-cli postcss-clean</li>
-        <li>npm install -D autoprefixer</li>
-        <li>npm install -D tailwindcss</li>
-        <li>Crear archivo de postcc: <em>code .postcssrc</em></li>
-    </ol>
-    <p>Archivo postcssrc</p>
-    <pre>
-        {
-            "plugins": {
-                "autoprefixer": true,
-                "postcss-clean": true,
-                "tailwindcss": true
-            }
-        }
-    </pre>
-    <p>En el arvhico index.css poner</p>
-    <pre>
-        @tailwind base;
-
-        @tailwind components;
-
-        @tailwind utilities;
-    </pre>
-    <div>
-        <img src="/assets/paleta-colores.png" alt="">
+    <div class="container">
+        <nav class="bg-gray-900 text-gray-100 text-sm py-3 w-screen flex justify-around">
+            <div class="logo w-64 h-16 p-4 bg-red-500"></div>
+            <ul class="flex justify-end">
+                <li class="px-4"><a href="#">Inicio</a></li>
+                <li class="px-4"><a href="demo.html">Demo</a></li>
+                <li class="px-4"><a href="#">About</a></li>
+            </ul>
+        </nav>
     </div>
 </body>
 </html>
