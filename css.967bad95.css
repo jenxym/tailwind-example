@@ -579,17 +579,17 @@ video {
 }
 
 h1{
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   font-weight: 700;
 }
 
 h2{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 h3{
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
@@ -10918,6 +10918,12 @@ h3{
 
 .duration-1000 {
   transition-duration: 1000ms;
+}
+
+.header-bg-img{
+  background:url(/parking.b91bccf4.jpg) top center;
+  background-size:cover;
+  background-attachment:fixed
 }
 
 @media (min-width: 640px) {
