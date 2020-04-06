@@ -12,13 +12,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.7.4",
+    "autoprefixer": "^9.7.5",
     "gh-pages": "^2.2.0",
     "parcel-bundler": "^1.12.4",
     "postcss-clean": "^1.1.0",
     "postcss-cli": "^7.1.0",
     "prettier": "1.19.1",
-    "stylelint": "^13.2.0",
+    "stylelint": "^13.3.0",
     "stylelint-config-standard": "^20.0.0",
     "tailwindcss": "^1.2.0"
   },
