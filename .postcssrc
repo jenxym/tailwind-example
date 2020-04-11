@@ -1,7 +1,7 @@
 {
-    "plugins": {
-        "autoprefixer": true,
-        "postcss-clean": true,
-        "tailwindcss": true
-    }
+  "plugins": {
+    "autoprefixer": true,
+    "postcss-clean": true,
+    "tailwindcss": true
+  }
 }

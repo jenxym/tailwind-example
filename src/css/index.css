@@ -18,8 +18,32 @@ h3 {
 @tailwind components;
 @tailwind utilities;
 
-.header-bg-img {
-  background: url(../assets/parking.jpg) top center;
+.max-content {
+  width: max-content;
+}
+
+#header-bg-img {
+  background: url(../assets/parking.jpg);
   background-size: cover;
-  background-attachment: fixed;
+  background-position: center center;
+  transition: transform 0.8s ease;
+}
+
+#top-bar {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-form {
+  top: 30%;
+  right: 16%;
+}
+
+@media (max-width: 710px) {
+  #top-form {
+    right: 0;
+    width: 100%;
+  }
 }
