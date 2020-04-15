@@ -1,12 +1,13 @@
 {
-  "name": "proyecto-aparka",
+  "name": "tailwind-example",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
-    "start": "npx parcel src/index.html",
-    "deploy": "gh-pages -d dist",
-    "build": "parcel build src/index.html --no-source-maps --public-url ./"
+    "start": "parcel %npm_package_main%",
+    "deploy": "gh-pages -d build",
+    "prebuild": "del /f dist build",
+    "build": "parcel build %npm_package_main% -d build --public-url /%npm_package_name%/"
   },
   "author": "",
   "license": "ISC",

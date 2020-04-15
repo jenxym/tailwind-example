@@ -1,49 +1,49 @@
 @tailwind base;
 
 h1 {
-  @apply text-3xl;
-  @apply font-bold;
+	@apply text-3xl;
+	@apply font-bold;
 }
 
 h2 {
-  @apply text-2xl;
-  @apply font-bold;
+	@apply text-2xl;
+	@apply font-bold;
 }
 
 h3 {
-  @apply text-xl;
-  @apply font-bold;
+	@apply text-xl;
+	@apply font-bold;
 }
 
 @tailwind components;
 @tailwind utilities;
 
 .max-content {
-  width: max-content;
+	width: max-content;
 }
 
 #header-bg-img {
-  background: url(../assets/parking.jpg);
-  background-size: cover;
-  background-position: center center;
-  transition: transform 0.8s ease;
+	background: url(../assets/parking.jpg);
+	background-size: cover;
+	background-position: center center;
+	transition: transform 0.8s ease;
 }
 
 #top-bar {
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #top-form {
-  top: 30%;
-  right: 16%;
+	top: 30%;
+	right: 16%;
 }
 
 @media (max-width: 710px) {
-  #top-form {
-    right: 0;
-    width: 100%;
-  }
+	#top-form {
+		right: 0;
+		width: 100%;
+	}
 }
